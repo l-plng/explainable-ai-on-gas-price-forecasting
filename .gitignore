@@ -1,0 +1,63 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore conda environment files
+*.conda
+*.env
+*.venv
+*.egg-info/
+env/
+venv/
+ENV/
+env.bak/
+*.lock
+
+# Ignore pip cache and compiled extensions
+pip-wheel-metadata/
+*.egg
+*.whl
+*.so
+
+# Ignore logs and databases
+*.log
+*.sqlite3
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore Jupyter runtime files
+~/.ipython/
+~/.jupyter/
+~/.local/share/jupyter/
+
+# Ignore Jupyter Notebook output files (optional)
+*.nbconvert.ipynb
+*.nbconvert.html
+*.nbconvert.pdf
+
+# Ignore data and model files
+*.csv
+*.tsv
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.ckpt
+*.pt
+*.onnx
+*.model
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# custom excludes
+Daten/*
+venvMasterarbeit/*

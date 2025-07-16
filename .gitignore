@@ -61,3 +61,8 @@ Thumbs.db
 # custom excludes
 Daten/*
 venvMasterarbeit/*
+ACF_PACF_Bilder/*
+Masterarbeit_Python 3.12.code-workspace/*
+Code/Old/*
+Code/catboost_info/*
+Code/Pickle/*
